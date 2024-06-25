@@ -1,0 +1,33 @@
+PODS:
+  - Flutter (1.0.0)
+  - moyasar (0.0.1):
+    - Flutter
+    - MoyasarSdk
+  - MoyasarSdk (0.1.7)
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - moyasar (from `.symlinks/plugins/moyasar/ios`)
+  - MoyasarSdk (from `https://github.com/moyasar/moyasar-ios-pod.git`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  moyasar:
+    :path: ".symlinks/plugins/moyasar/ios"
+  MoyasarSdk:
+    :git: https://github.com/moyasar/moyasar-ios-pod.git
+
+CHECKOUT OPTIONS:
+  MoyasarSdk:
+    :commit: dd47a0a8dc876d29fbf93f6adb6e22873315f244
+    :git: https://github.com/moyasar/moyasar-ios-pod.git
+
+SPEC CHECKSUMS:
+  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
+  moyasar: 97565a0eaf35a13095b790f781b77d9fe0a40c84
+  MoyasarSdk: 8f282479ad2e023852ebcead67ff683aeb0aad56
+
+PODFILE CHECKSUM: 654f787113bfb19531a0e8c19765ab91f76d7263
+
+COCOAPODS: 1.11.3
