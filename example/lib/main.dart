@@ -83,7 +83,7 @@ class _MyAppState extends State<MyApp> {
                                   "os": Platform.operatingSystem,
                                   "consignmentNo": "TEST321312312312"
                                 },
-                                merchantId: "merchant.express.mylabaih.com",
+                                merchantId: "merchant.com.example.app",
                                 apiKey: kApiKey));
                         print(result);
                       } catch (err) {
